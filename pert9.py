@@ -24,14 +24,31 @@
 # Nama : Risky
 # Umur : 19
 
-def biodata(nama, umur):
-    print ("==================")
-    print ("      BIODATA     ")
-    print ("==================")
-    print ("Nama : ", nama)
-    print ("Umur : ", umur)
+# def biodata(nama, umur):
+#     print ("\n==================")
+#     print ("      BIODATA     ")
+#     print ("==================\n")
+#     print ("Nama : ", nama)
+#     print ("Umur : ", umur)
 
-nama = input ("Masukan Nama :")
-umur = int(input ("Masukan Umur :"))
+# nama = input ("Masukan Nama :")
+# umur = int(input ("Masukan Umur :"))
 
-biodata(nama, umur)
+# biodata(nama, umur)
+
+# SOAL 3
+# Panjang : 10
+# Lebar : 5
+
+# Luas Persegi Panjang : 50
+
+def luas(panjang, lebar):
+    print ("Panjang : ", panjang)
+    print ("Lebar : ", lebar)
+    print ("Luas Persegi Panjang ; ", luas)
+
+panjang = int(input("Masukan Panjang Persegi :"))
+lebar = int(input("Masukan Lebar Persegi :"))
+luas = panjang * lebar
+
+luas(panjang, lebar)
