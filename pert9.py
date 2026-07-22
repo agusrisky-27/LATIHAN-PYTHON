@@ -80,17 +80,32 @@
 
 # Status : Lulus
 
-def cek_nilai (nama, nilai):
-    print ("Nama : ", nama)
-    print ("Nilai : ", nilai)
+# def cek_nilai (nama, nilai):
+#     print ("Nama : ", nama)
+#     print ("Nilai : ", nilai)
+    #   if nilai >= 65:
+    #     print ("Lulus")
+    #   else:
+    #     print ("Tidak Lulus")
 
-nama = input("Masukan Nama : ")
-nilai = float(input("Masukan Nilai : "))
+# nama = input("Masukan Nama : ")
+# nilai = float(input("Masukan Nilai : "))
 
-cek_nilai(nama, nilai)
+# cek_nilai(nama, nilai)
 
-if nilai >= 65:
-    print ("Lulus")
-else:
-    print ("Tidak Lulus")
+# LATIHAN RETURN + PARAMETER
+# SOAL 1
+# Masukkan Angka Pertama : 10
+# Masukkan Angka Kedua : 20
 
+# Hasil Penjumlahan : 30
+
+def tambah(a, b):
+    hasil = a + b
+    return hasil
+
+angka1 = 10
+angka2 = 20
+
+hasil = tambah (angka1, angka2)
+print(hasil)
