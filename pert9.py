@@ -60,16 +60,37 @@
 
 # Total Gaji : 6000000
 
-def hitung_gaji(nama, gaji_pokok, bonus):
-    print ("Nama :", nama)
-    print ("Gaji Pokok :", gaji_pokok)
-    print ("Bonus :", bonus)
+# def hitung_gaji(nama, gaji_pokok, bonus):
+#     print ("Nama :", nama)
+#     print ("Gaji Pokok :", gaji_pokok)
+#     print ("Bonus :", bonus)
+
+# nama = input("Masukan Nama : ")
+# gaji_pokok = int(input("Masukan Gaji Pokok : "))
+# bonus = int(input("Masukan Bonus : "))
+
+# hitung_gaji(nama, gaji_pokok, bonus)
+
+# total = gaji_pokok + bonus
+# print ("Total Gaji : ", total)
+
+# SOAL 5
+# Nama : Risky
+# Nilai : 80
+
+# Status : Lulus
+
+def cek_nilai (nama, nilai):
+    print ("Nama : ", nama)
+    print ("Nilai : ", nilai)
 
 nama = input("Masukan Nama : ")
-gaji_pokok = int(input("Masukan Gaji Pokok : "))
-bonus = int(input("Masukan Bonus : "))
+nilai = float(input("Masukan Nilai : "))
 
-hitung_gaji(nama, gaji_pokok, bonus)
+cek_nilai(nama, nilai)
 
-total = gaji_pokok + bonus
-print ("Total Gaji : ", total)
+if nilai >= 65:
+    print ("Lulus")
+else:
+    print ("Tidak Lulus")
+
