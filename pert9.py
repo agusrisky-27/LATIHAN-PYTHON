@@ -100,12 +100,46 @@
 
 # Hasil Penjumlahan : 30
 
-def tambah(a, b):
-    hasil = a + b
-    return hasil
+# def tambah(a, b):
+#     hasil = a + b
+#     return hasil
 
-angka1 = 10
-angka2 = 20
+# angka1 = 10
+# angka2 = 20
 
-hasil = tambah (angka1, angka2)
-print(hasil)
+# hasil = tambah (angka1, angka2)
+# print(hasil)\
+
+# SOAL 2
+# Masukkan Nama          : Risky
+# Masukkan Gaji Pokok    : 5000000
+# Masukkan Bonus         : 1000000
+
+# =========================
+#       DATA KARYAWAN
+# =========================
+
+# Nama         : Risky
+# Gaji Pokok   : 5000000
+# Bonus        : 1000000
+# Total Gaji   : 6000000
+
+def  hitung_gaji(gaji_pokok, bonus):
+    total_gaji = gaji_pokok + bonus
+
+    return total_gaji
+
+nama = input("Masukan Nama : ")
+gaji_pokok = int(input("Masukan Gaji Pokok : "))
+bonus = int(input("Masukan Bonus : "))
+
+print ("\n============================")
+print ("           GAJI           ")
+print ("============================\n")
+print ("Nama : ", nama)
+print ("Gaji Pokok : ", gaji_pokok)
+print ("Bonus : ", bonus)
+print ("\n----------------------------")
+total_gaji = hitung_gaji(gaji_pokok, bonus)
+print ("Total Gaji : ", total_gaji)
+
