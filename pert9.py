@@ -42,13 +42,34 @@
 
 # Luas Persegi Panjang : 50
 
-def luas(panjang, lebar):
-    print ("Panjang : ", panjang)
-    print ("Lebar : ", lebar)
-    print ("Luas Persegi Panjang ; ", luas)
+# def luas(panjang, lebar, luas_persegi_panjang):
+#     print ("Panjang : ", panjang)
+#     print ("Lebar : ", lebar)
+#     print ("Luas Persegi Panjang ; ", luas)
 
-panjang = int(input("Masukan Panjang Persegi :"))
-lebar = int(input("Masukan Lebar Persegi :"))
-luas = panjang * lebar
+# panjang = int(input("Masukan Panjang Persegi :"))
+# lebar = int(input("Masukan Lebar Persegi :"))
+# luas_persegi_panjang = panjang * lebar
 
-luas(panjang, lebar)
+# luas(panjang, lebar, luas_persegi_panjang)
+
+# SOAL 4
+# Nama : Risky
+# Gaji Pokok : 5000000
+# Bonus : 1000000
+
+# Total Gaji : 6000000
+
+def hitung_gaji(nama, gaji_pokok, bonus):
+    print ("Nama :", nama)
+    print ("Gaji Pokok :", gaji_pokok)
+    print ("Bonus :", bonus)
+
+nama = input("Masukan Nama : ")
+gaji_pokok = int(input("Masukan Gaji Pokok : "))
+bonus = int(input("Masukan Bonus : "))
+
+hitung_gaji(nama, gaji_pokok, bonus)
+
+total = gaji_pokok + bonus
+print ("Total Gaji : ", total)
