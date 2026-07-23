@@ -124,22 +124,22 @@
 # Bonus        : 1000000
 # Total Gaji   : 6000000
 
-def  hitung_gaji(gaji_pokok, bonus):
-    total_gaji = gaji_pokok + bonus
+# def  hitung_gaji(gaji_pokok, bonus):
+#     total_gaji = gaji_pokok + bonus
 
-    return total_gaji
+#     return total_gaji
 
-nama = input("Masukan Nama : ")
-gaji_pokok = int(input("Masukan Gaji Pokok : "))
-bonus = int(input("Masukan Bonus : "))
+# nama = input("Masukan Nama : ")
+# gaji_pokok = int(input("Masukan Gaji Pokok : "))
+# bonus = int(input("Masukan Bonus : "))
 
-print ("\n============================")
-print ("           GAJI           ")
-print ("============================\n")
-print ("Nama : ", nama)
-print ("Gaji Pokok : ", gaji_pokok)
-print ("Bonus : ", bonus)
-print ("\n----------------------------")
-total_gaji = hitung_gaji(gaji_pokok, bonus)
-print ("Total Gaji : ", total_gaji)
+# print ("\n============================")
+# print ("           GAJI           ")
+# print ("============================\n")
+# print ("Nama : ", nama)
+# print ("Gaji Pokok : ", gaji_pokok)
+# print ("Bonus : ", bonus)
+# print ("\n----------------------------")
+# total_gaji = hitung_gaji(gaji_pokok, bonus)
+# print ("Total Gaji : ", total_gaji)
 
