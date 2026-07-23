@@ -14,17 +14,28 @@
 def hitung_diskon(total_belanja):
     print ("Total belanja : ", total_belanja)
     if total_belanja >= 500000:
-    diskon = 10 / 100
+        diskon = total_belanja * 10 / 100
     elif total_belanja >= 250000:
-        diskon = 5 / 100
+        diskon = total_belanja * 5 / 100
     else:
-        diskon = 0 / 100
-    
-    total_bayar = total_belanja * diskon
+        diskon = total_belanja * 0 / 100
+        
+
+    total_bayar = total_belanja - diskon
     return diskon, total_bayar
 
-total_belanja = input("Masukan Nama : ")
-nama_pembeli = int(input("Masukan Total Belanja : "))
+nama_pembeli = input("Masukan Nama : ")
+total_belanja = int(input("Masukan Total Belanja : "))
+
+print ("\n===================")
+print ("   STRUK BELANJA   ")
+print ("===================\n")
+
+print ("Nama Pembeli : ", nama_pembeli)
+print ("Total Belanja : ", total_belanja)
+diskon, total_bayar = hitung_diskon(total_belanja)
+print ("Diskon : ", diskon)
+print ("Total Bayar : ", total_bayar)
 
 
 
